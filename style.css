@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(66, 58, 58);
+}
+header {
+    position: fixed;
+    top: 1vw;
+    right: 1vw;
+    font-size: 1rem;
+}
+
+#progress-bar {
+    height: 25px;
+    width: 20vw;
+    background-color:transparent;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px grey, 0px 0px 5px rgb(254, 255, 254);
+}
+
+#progress-bar span {
+    line-height: 30px;
+}
+
+#scrolled {
+    font-size: 1.3rem;
+}
+
+
+main{
+    height: fit-content;
+    width: 75%;
+    margin: 50px auto;
+    /* border: 1px solid rgb(196, 191, 191); */
+    display: grid;
+    grid-template-rows: repeat(5, 250px);
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.boxDiv1{
+    background-color: rgb(138, 68, 68);
+    /* grid-column: 1/-1; */
+}
+
+.boxDiv2{
+    background-color: rgb(65, 28, 28);
+}
+.boxDiv3{
+    background-color: rgb(138, 156, 36);
+}
+.boxDiv4{
+    background-color: rgb(11, 134, 134);
+}
+.boxDiv5{
+    background-color: rgb(102, 15, 119);
+    /* grid-row: 2/4;
+    grid-column: 4/5; */
+}
+.boxDiv6{
+    background-color: rgb(40, 31, 83);
+    /* grid-column: 1/4; */
+
+}
+.boxDiv7{
+    background-color: rgb(32, 240, 153);
+    /* grid-column:1/-1 ; */
+}
+.boxDiv8{
+    background-color: rgb(80, 228, 22);
+    /* grid-column:1/-1 ; */
+}
+.boxDiv9{
+    background-color: rgb(124, 15, 110);
+    /* grid-column:1/-1 ; */
+}
+
+.boxDiv10{
+    background-color: rgb(240, 32, 119);
+    /* grid-column:1/-1 ; */
+}
+
